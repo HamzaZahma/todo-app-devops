@@ -1,4 +1,4 @@
-# Déploiement de l'image publiée par le pipeline (TP2 DevOps HESTIM)
+
 services:
   app:
     image: ghcr.io/azeddinekhiat/todo-app-devops:latest
@@ -13,6 +13,6 @@ services:
       start_period: 5s
     volumes:
       - todo-data:/etc/todos
-
+ 
 volumes:
   todo-data:
